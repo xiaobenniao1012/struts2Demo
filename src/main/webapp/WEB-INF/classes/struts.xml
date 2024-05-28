@@ -6,8 +6,9 @@
 
     <constant name="struts.devMode" value="true" />
 
-    <!--<constant name="struts.objectFactory.spring.autoWire" value="type"></constant>-->
-    <!--<constant name="struts.objectFactory" value="spring" />-->
+    <constant name="struts.action.extension" value="do"/>
+    <constant name="struts.objectFactory.spring.autoWire" value="type"></constant>
+    <constant name="struts.objectFactory" value="spring" />
 
     <package name="demo" extends="struts-default">
         <action name="index">
